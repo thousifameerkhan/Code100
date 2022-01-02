@@ -1,0 +1,26 @@
+/*package whatever //do not write package name here */
+
+import java.io.*;
+
+class GFG {
+    
+    
+    public int fun_result(int n)
+    {
+        int sum = 0;
+        for(int i=1;i<n;i++)
+        {
+            int cur=sum+1;
+            sum = sum + cur;
+        }
+        return sum+1;
+    }
+    
+    
+	public static void main (String[] args) {
+	    
+	    GFG g = new GFG();
+	    int a = g.fun_result(10);
+		System.out.println(a);
+	}
+}
