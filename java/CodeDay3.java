@@ -1,6 +1,7 @@
 class CodeDay3{
 
     CodeDay3(){}
+
     public static void main(String[] args){
         System.out.println("Code day 3");
 
@@ -18,5 +19,16 @@ class CodeDay3{
         }
 
 
+        CodeDay3 c = new CodeDay3();
+        System.out.println(c.addSubstrig("Thousif"));
+      //  String k = (String a)->System.out.println("Songle line function "+a);
+
+       // () -> System.out.println("Zero parameter lambda");
     }
+
+
+    public String addSubstrig(String a){
+        return "Welcome "+a;
+    }
+
 }
