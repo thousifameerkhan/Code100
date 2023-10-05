@@ -9,6 +9,7 @@ class linkedlist {
         l.add(100);
         l.add(99);
         l.add(98);
+        l.add(66);
 
         for( int e: l)
         {
